@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: rgb(236, 234, 234);
+}
+
+header .navb{
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 85%;
+    height: 10vh;
+    border-radius: 20px 20px 0px 0px;
+    margin: auto;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    
+} 
+header .navb .bxa{
+    /* border:2px solid blue ; */
+    height: 60%;
+    width: 30%;
+    /* margin: auto; */
+    margin-top: 3vh;
+    margin-left: 5%;
+    color: white;
+    text-align: auto;
+    font-family: "poppins";
+    
+    
+}
+header .navb .bxa h5{
+    font-weight: 200;
+    font-size: 19px;
+}
+header .navb .bxb{
+    /* border:2px solid blue ; */
+    height: 60%;
+    width: 30%;
+    /* margin: auto; */
+    margin-top: 3vh;
+    margin-left: 35%;
+    color: white;
+    text-align: auto;
+    font-family: "poppins";
+    
+    
+}
+header .navb .bxb button{
+    border-radius: 5px;
+    height: 80%;
+    width: 40%;
+    font-size: 15px;
+    font-family: 'poppins';
+    border: 2px solid white;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    margin-left: 5%;
+}
+header .cont{
+    background-color: rgb(208, 220, 223);
+    height: 40vh;
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+header .cont .qna{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 15vh;
+    margin: auto;
+    text-align: center;
+    
+}
+header .cont .qna h1{
+    font-family: 'poppins';
+    color:rgb(8, 8, 8); 
+    font-size: 40px;
+    font-weight: 400;
+}
+header .cont .srch{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 15vh;
+    margin: auto;
+    
+}
+
+header .cont .srch input{
+    width: 70%;
+    height: 44%;
+    font-size: 18px;
+    font-weight: 200;
+    margin: auto;
+    margin-left: 15%;
+    text-align: auto;
+
+}
+.optnm{
+    width: 85%;
+    height: 100vh;
+    /* border: 2px solid green; */
+    margin: auto;
+    background-color: white;
+    padding-top:10vh ;
+}
+.optnm .dtl{
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 25vh;
+    /* margin: auto; */
+    /* margin-top: 3%; */
+    display: flex;
+    margin-left: 5%;
+    
+    
+}
+.optnm .dtl .dtla{
+    /* border: 2px solid rgb(0, 0, 255); */
+    width: 40%;
+    height: 98%;
+    margin: auto;
+    display: flex;
+}
+.optnm .dtl .dtla .img{
+    /* border: 2px solid rgb(253, 20, 218); */
+    height: 100%;
+    width: 30%;
+}
+.optnm .dtl .dtla .img img{
+    height: 60%;
+    width: 80%;
+    margin-left: 20%;
+}
+.optnm .dtl .dtla   .txt{
+    /* border: 2px solid rgb(22, 255, 158); */
+    height: 100%;
+    width: 70%;
+}
+.optnm .dtl .dtlb{
+    /* border: 2px solid rgb(0, 0, 255); */
+    width: 40%;
+    height: 98%;
+    margin: auto;
+    display: flex;
+}
+.optnm .dtl .dtlb .img{
+/* border: 2px solid rgb(253, 20, 218); */
+    height: 100%;
+    width: 30%;
+}
+.optnm .dtl .dtlb .img img{
+    height: 60%;
+    width: 80%;
+    margin-left: 20%;
+}
+.optnm .dtl .dtlb .txt{
+    /* border: 2px solid rgb(22, 255, 158); */
+    height: 100%;
+    width: 70%;
+}
+.txt h2{
+    font-family: 'poppins';
+    font-weight: 500;
+    
+}
+.txt h4{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 13px;
+    
+}
+.txt h5{
+    font-family: 'poppins';
+    font-weight: 300;
+    font-size: 14px;    
+}
+.footer{
+    /* border: 2px solid rgb(232, 15, 15); */
+    width: 100%;
+    height: auto;
+    background-color:rgb(8, 8, 8);
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+}
+.footer .cards{
+    width: 70%;
+    height: 85%;
+    margin-top:2%;
+    /* border: 2px solid white; */
+    margin-left:20px ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .cards .card{
+    /* border: 2px solid blue; */
+    width: 30%;
+    height: 95%;
+    
+}
+h3{
+    font-weight: 200;
+    color: white;
+    font-family: 'poppins';
+}
+.footer .cards .card h5{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'poppins';
+}
+ul,li{
+    color: white;
+    text-decoration: none;
+    font-family: 'poppins';
+    font-weight: 200;
+    font-size: small;
+    list-style: none;
+}
+.footer .copyr{
+    /* border:2px solid rgb(255, 0, 0); */
+    width: 25%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+@media only screen and (max-width:1300px){
+    header .navb .bxb{
+        width: 40%;
+        margin-left: 25%;
+    }
+    .optnm .dtl .dtla .img img{
+        height: 45%;
+        width: 75%;
+        margin-left: 20%;
+    }
+    .optnm .dtl .dtlb .img img{
+        height: 45%;
+        width: 75%;
+        margin-left: 20%;
+    }
+    .txt h2{
+        font-family: 'poppins';
+        font-weight: 500;
+        font-size: 17px;
+        
+    }
+    .txt h4{
+        font-family: 'poppins';
+        font-weight: 500;
+        font-size: 12px;
+        
+    }
+    .txt h5{
+        font-family: 'poppins';
+        font-weight: 200;
+        font-size: 12px;    
+    }
+}
+
+@media only screen and (max-width:980px){
+    header .navb .bxb{
+        width: 50%;
+        margin-left: 1%;
+    }
+    header .navb .bxa{
+        width: 40%;
+        
+    }
+    header .navb .bxb button{
+        border-radius: 5px;
+        height: 80%;
+        width: 50%;
+        font-size: 15px;
+    }
+    header .cont .qna h1{
+        font-size: 35px;
+    }
+    header .cont .srch{
+        width: 55%;
+        height: 12vh;
+        
+    }
+    header .cont .srch input{
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .optnm .dtl .dtla .img img{
+        height: 40%;
+        width: 70%;
+        margin-left: 20%;
+    }
+    .optnm .dtl .dtlb .img img{
+        height: 40%;
+        width: 70%;
+        margin-left: 20%;
+    }
+    .txt h2{
+        font-family: 'poppins';
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+    .txt h4{
+        font-family: 'poppins';
+        font-weight: 500;
+        font-size: 11px;   
+    }
+    .txt h5{
+        font-family: 'poppins';
+        font-weight: 300;
+        font-size: 10px;    
+    }
+}
+
+@media only screen and (max-width:700px){
+    .optnm .dtl{
+        display:inline-block;
+        justify-content: space-around;
+    }
+    .optnm .dtl .dtla{
+        width: 80%;
+        height: 50%;
+    }
+    .optnm .dtl .dtlb{
+        width: 80%;
+        height: 50%;
+        margin-top: 10%;
+    }
+    .footer .cards{
+        display:inline-block;
+    }
+}
